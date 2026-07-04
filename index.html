@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neha Shaheer CA - Portfolio</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="index.css">
+  <script src="theme.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container">
+
+      <!-- Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--HERO SECTION -->
+  <section class="hero d-flex align-items-center" id="home">
+
+    <div id="tsparticles" class="hero-bg"></div>
+
+    <div class="container position-relative hero-content w-100 mt-5">
+      <div class="row justify-content-center text-center">
+        <!-- Top: Text and Buttons -->
+        <div class="col-lg-8 mb-5">
+          <div class="glass-card p-4 p-md-5 rounded-4">
+            <h1 class="fw-bold display-4 text-white mb-3">
+              <span class="typewriter d-inline-block">Hi, I'm Neha Shaheer CA</span>
+            </h1>
+
+            <p class="lead text-light mb-4 delay-fade-in fs-4">
+              Aspiring Full Stack Developer specializing in Django and React
+            </p>
+
+            <div class="delay-fade-in-late d-flex flex-wrap justify-content-center gap-3 mt-4">
+              <a href="#projects" class="btn btn-glow px-4 py-2">
+                View Projects
+              </a>
+              <a href="./NEHA_SHAHEER_CA_pythonfullstackdeveloper.pdf" download class="btn btn-outline-glow px-4 py-2">
+                Resume
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom: Profile Image -->
+        <div class="col-lg-12 text-center">
+          <img src="./Neha.png" class="hero-profile-img slide-in-bottom" alt="Neha Shaheer">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--About-->
+  <section class="about-section py-5" id="about">
+
+    <div class="container">
+
+      <h1 class="text-center mb-5 text-white display-4 fw-bold">
+        About <span class="text-violet">Me</span>
+      </h1>
+
+      <div class="row align-items-center justify-content-center text-center">
+
+        <!-- CONTENT -->
+        <div class="col-lg-10 text-white">
+
+          <h2 class="fw-bold mb-4">Full Stack Developer</h2>
+
+          <p class="about-text fs-5">
+            I’m Neha Shaheer CA, a Full Stack Developer focused on building fast, scalable, and user-friendly web
+            applications using Python, Django, and React.
+          </p>
+
+          <p class="about-text fs-5">
+            I enjoy turning ideas into real-world products from designing responsive user interfaces to developing
+            secure backend systems. My goal is to create applications that are not only functional but also efficient
+            and easy to use.
+          </p>
+
+          <p class="about-text fs-5">
+            I’m constantly learning and improving, exploring modern tools and technologies to write cleaner, more
+            optimized code and deliver better solutions.
+          </p>
+
+          <!-- SKILL BADGES -->
+          <div class="d-flex flex-wrap justify-content-center gap-3 mt-5">
+            <span class="badge bg-dark border border-light px-4 py-2 fs-6">React.js</span>
+            <span class="badge bg-dark border border-light px-4 py-2 fs-6">Bootstrap</span>
+            <span class="badge bg-dark border border-light px-4 py-2 fs-6">Python</span>
+            <span class="badge bg-dark border border-light px-4 py-2 fs-6">Django</span>
+            <span class="badge bg-dark border border-light px-4 py-2 fs-6">MySQL</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--Skills-->
+  <section id="skills" class="py-5 skills-section">
+    <div class="container text-center">
+
+      <h2 class="mb-4 display-5 fw-bold text-white fade-up">
+        Technical <span class="text-violet">Arsenal</span>
+      </h2>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid fade-up delay-1 mt-5">
+        <div class="skill-pill"><i class="fa-brands fa-html5" style="color: #E34F26;"></i> HTML</div>
+        <div class="skill-pill"><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i> CSS</div>
+        <div class="skill-pill"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i> JavaScript</div>
+        <div class="skill-pill"><i class="fa-brands fa-react" style="color: #61DAFB;"></i> React</div>
+        <div class="skill-pill"><i class="fa-brands fa-python" style="color: #FFD43B;"></i> Python</div>
+        <div class="skill-pill"><i class="fa-solid fa-server" style="color: #092E20;"></i> Django</div>
+        <div class="skill-pill"><i class="fa-brands fa-git-alt" style="color: #F05032;"></i> Git</div>
+        <div class="skill-pill"><i class="fa-brands fa-github" style="color: #ffffff;"></i> GitHub</div>
+        <div class="skill-pill"><i class="fa-solid fa-network-wired" style="color: #8A2BE2;"></i> REST API</div>
+        <div class="skill-pill"><i class="fa-solid fa-database" style="color: #00758F;"></i> MySQL</div>
+        <div class="skill-pill"><i class="fa-solid fa-leaf" style="color: #47A248;"></i> MongoDB</div>
+        <div class="skill-pill"><i class="fa-brands fa-bootstrap" style="color: #7952b3;"></i> Bootstrap</div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--Projects-->
+  <section id="projects" class="projects-section py-5">
+  <div class="container">
+
+    <h2 class="text-center text-white mb-5 display-5 fw-bold">
+      Featured <span class="text-violet">Projects</span>
+    </h2>
+
+    <div class="row g-4">
+
+      <!-- Ecommerce -->
+      <div class="col-lg-4">
+        <div class="project-card h-100">
+
+          <img src="ecommerce.png" class="img-fluid rounded-4 mb-4" alt="Ecommerce Project">
+
+          <h3 class="text-white fw-bold">
+            Multivendor Ecommerce Platform
+          </h3>
+
+          <p class="text-secondary">
+            Full-stack ecommerce platform with vendor dashboards,
+            product management, cart, wishlist, order tracking,
+            category filtering and admin management.
+          </p>
+
+          <div class="project-features">
+            <span>✓ Vendor Dashboard</span>
+            <span>✓ Cart & Wishlist</span>
+            <span>✓ Product CRUD</span>
+            <span>✓ Authentication</span>
+          </div>
+
+          <div class="tech-stack mt-3">
+            <span>Django</span>
+            <span>Python</span>
+            <span>MySQL</span>
+            <span>Bootstrap</span>
+          </div>
+
+          <div class="mt-4 d-flex gap-2">
+            <a href="https://github.com/Nehashaheer19/multivendor-Ecommerce" class="btn btn-outline-light">
+              GitHub
+            </a>
+
+            <!-- <a href="#" class="btn btn-violet">
+              Live Demo
+            </a> -->
+          </div> 
+
+        </div>
+      </div>
+
+      <!-- React Project -->
+      <div class="col-lg-4">
+        <div class="project-card h-100">
+
+          <img src="react.png" class="img-fluid rounded-4 mb-4" alt="React Project">
+
+          <h3 class="text-white fw-bold">
+            Event Booking Application
+          </h3>
+
+          <p class="text-secondary">
+            React-based booking platform with event listings,
+            booking management, routing and responsive UI.
+          </p>
+
+          <div class="project-features">
+            <span>✓ React Hooks</span>
+            <span>✓ Routing</span>
+            <span>✓ State Management</span>
+            <span>✓ Responsive UI</span>
+          </div>
+
+          <div class="tech-stack mt-3">
+            <span>React</span>
+            <span>Bootstrap</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="mt-4 d-flex gap-2">
+            <a href="https://github.com/Nehashaheer19/Event-booking" class="btn btn-outline-light">
+              GitHub
+            </a>
+
+            <!-- <a href="#" class="btn btn-violet">
+              Live Demo
+            </a> -->
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Figma -->
+      <div class="col-lg-4">
+        <div class="project-card h-100">
+          <div class="project-images">
+              <img src="figma1.png" alt="Figma Design 1">
+              <img src="figma2.png" alt="Figma Design 2">
+          </div>
+         
+
+          <h3 class="text-white fw-bold">
+            UI/UX Design System
+          </h3>
+
+          <p class="text-secondary">
+            Modern responsive UI designed in Figma focusing on
+            usability, accessibility and clean user experience.
+          </p>
+
+          <div class="project-features">
+            <span>✓ Wireframes</span>
+            <span>✓ Prototypes</span>
+            <span>✓ Design System</span>
+            <span>✓ Mobile First</span>
+          </div>
+
+          <div class="tech-stack mt-3">
+            <span>Figma</span>
+            <span>UI Design</span>
+            <span>UX Design</span>
+          </div>
+<!-- 
+          <div class="mt-4 d-flex gap-2">
+            <a href="#" class="btn btn-violet">
+              View Design
+            </a>
+          </div> -->
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section py-5">
+
+    <div class="container">
+
+      <h2 class="text-center text-white mb-5 display-5 fw-bold">
+        Get In <span class="text-violet">Touch</span>
+      </h2>
+
+      <div class="row justify-content-center align-items-start g-5">
+
+        <!-- LEFT SIDE CONTENT -->
+        <div class="col-md-5 text-white">
+
+          <h3 class="fw-bold mb-3">Let's work together</h3>
+          <p class="text-light mb-4">
+            I'm always excited to collaborate on new projects and opportunities.
+            Feel free to reach out anytime!
+          </p>
+
+          <div class="d-flex flex-column gap-3">
+
+            <a href="mailto:nehashaheer.ca@gmail.com" class="btn contact-btn w-100">
+              <i class="fa-regular fa-envelope"></i> &nbsp; nehashaheer.ca@gmail.com
+            </a>
+
+            <a href="https://www.linkedin.com/in/neha-shaheer-ca-973263369/" class="btn social-btn w-100">
+              <i class="fa-brands fa-linkedin-in"></i> &nbsp; LinkedIn
+            </a>
+
+            <a href="https://github.com/Nehashaheer19" class="btn social-btn w-100">
+              <i class="fa-brands fa-github"></i> &nbsp; GitHub
+            </a>
+
+            <button class="btn social-btn w-100">
+              <i class="fa-solid fa-map-pin"></i> &nbsp; Bangalore, India
+            </button>
+
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE CONTACT FORM -->
+        <div class="col-md-5">
+
+       <form action="https://formsubmit.co/nehashaheer.ca@gmail.com"
+method="POST" class="contact-form">
+
+          <div class="input-group">
+            <input type="text" name="name" required />
+            <label>Name</label>
+          </div>
+
+          <div class="input-group">
+            <input type="email" name="email" required />
+            <label>Email</label>
+          </div>
+
+          <div class="input-group">
+            <input type="text" name="subject" required />
+            <label>Subject</label>
+          </div>
+
+          <div class="input-group">
+            <textarea rows="5" name="message" required></textarea>
+            <label>Message</label>
+          </div>
+          <br>
+
+          <button type="submit" style="padding: 10px; border-radius: 20px; color: white; background-color: black;">
+            SEND MESSAGE
+          </button>
+
+        </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <footer class="footer-section py-4 text-center">
+    <p class="mb-0 text-white">
+      &copy; 2026 <span class="text-violet fw-bold">Neha Shaheer CA</span>. All rights reserved.
+    </p>
+  </footer>
+  <script>
+    tsParticles.load("tsparticles", {
+      fpsLimit: 60,
+      particles: {
+        number: {
+          value: 40,
+          density: {
+            enable: true,
+            value_area: 800
+          }
+        },
+        color: {
+          value: ["#6366f1", "#8b5cf6", "#ffffff"]
+        },
+        shape: {
+          type: ["circle", "triangle", "polygon"],
+          options: {
+            polygon: {
+              sides: 5
+            }
+          }
+        },
+        links: {
+          enable: true,
+          color: "#ffffff",
+          distance: 150,
+          opacity: 0.1,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 1.5,
+          direction: "none",
+          random: true,
+          straight: false,
+          outModes: {
+            default: "bounce"
+          }
+        },
+        size: {
+          value: 3,
+          random: true
+        },
+        opacity: {
+          value: 0.4,
+          random: true
+        }
+      },
+      interactivity: {
+        events: {
+          onHover: {
+            enable: true,
+            mode: "bubble"
+          },
+          onClick: {
+            enable: true,
+            mode: "push"
+          },
+          resize: true
+        },
+        modes: {
+          bubble: {
+            distance: 200,
+            size: 6,
+            duration: 2,
+            opacity: 0.8
+          },
+          push: {
+            quantity: 3
+          }
+        }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+
+</html>
